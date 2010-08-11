@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/2.0beta2">
+
+	<id></id>
+	<filename></filename>
+	<name></name>
+	<version></version>
+	<initialWindow>
+		<content></content>
+		 <visible>true</visible>
+		 <width></width>
+		 <height></height>
+     </initialWindow>
+
+	<installFolder></installFolder>
+    
+    <programMenuFolder></programMenuFolder>
+    
+    <!--    
+    <icon>
+		<image16x16>assets/AIRApp_16.png</image16x16>
+		<image32x32>assets/AIRApp_32.png</image32x32>
+		<image48x48>assets/AIRApp_48.png</image48x48>
+		<image128x128>assets/AIRApp_128.png</image128x128>
+    </icon>
+
+    <supportedProfiles>extendedDesktop</supportedProfiles>
+    -->
+
+</application>

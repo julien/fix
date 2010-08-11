@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<componentPackage>
+
+<!--
+	Example manifest file for flashplayer .swc
+	for custom namespaces
+
+	URI       http://url.tld
+	namespace namespace_name
+	package   package_name
+-->
+	<!--
+	<component id="Component" class="package.Component"/>
+	-->
+
+	
+	
+</componentPackage>

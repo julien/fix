@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="jar" name="Fix" basedir="./" >
+    
+    
+    <target name="javac" description="Compiles the Java source code"> 
+        <javac srcdir="${basedir}/src"
+            destdir="${basedir}/bin"
+            
+            includeAntRuntime="true"
+            debug="on"
+            />
+        
+        <copy todir="${basedir}/bin">
+            <fileset dir="${basedir}/src" 
+                excludes="**/*.java" />
+        </copy>
+        
+    </target>    
+    
+    <target name="jar" depends="javac" 
+        description="Creates a runnable jar file">
+        
+        <jar destfile="${basedir}/fix.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="Fix"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="${basedir}/bin"/>
+        </jar>
+    </target>
+
+</project>

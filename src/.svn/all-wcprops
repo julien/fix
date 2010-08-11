@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rvspain_air/!svn/ver/512/branches/tools/fix/src
+END
+flex-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/rvspain_air/!svn/ver/520/branches/tools/fix/src/flex-config.xml
+END
+manifest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/rvspain_air/!svn/ver/519/branches/tools/fix/src/manifest.xml
+END
+Fix.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rvspain_air/!svn/ver/520/branches/tools/fix/src/Fix.java
+END
+air-descriptor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rvspain_air/!svn/ver/519/branches/tools/fix/src/air-descriptor.xml
+END
+air-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rvspain_air/!svn/ver/520/branches/tools/fix/src/air-config.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/rvspain_air/!svn/ver/515/branches/tools/fix/src/build.xml
+END

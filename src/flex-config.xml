@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+   Usage : mxmlc -load-config+=flex-config.xml 
+-->
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+    
+    <!--
+        Flash Player target version 
+        (either 9.0.0, 10.0.0, 10.1.0) 
+    -->  
+    <target-player>10.0.0</target-player>
+  
+    <!-- 
+        Default compiler settings     
+    -->
+    <compiler>
+        <debug>true</debug>
+        
+        <source-path>
+            <path-element>src</path-element>
+        </source-path>
+
+
+        <!-- List of SWC files or directories to compile against but to omit from -->
+        <!--                                                                      
+        <external-library-path>
+            <path-element>libs/.swc</path-element>
+        </external-library-path>
+        -->
+        
+        <!--
+        <include-libraries>
+            <library>string</library>
+        </include-libraries>
+        -->
+     
+        <!-- List of SWC files or directories that contain SWC files. -->
+        <!--
+        <library-path>
+            <path-element>libs</path-element>
+        </library-path>
+		-->
+    </compiler>
+    
+    <!-- 
+        Main class to be compiled 
+    -->
+    <file-specs>  
+        <path-element>src/.mxml</path-element>
+    </file-specs>
+  
+    <!-- 
+         Output .swf file 
+    -->
+    <output>.swf</output>
+
+
+</flex-config>
+
