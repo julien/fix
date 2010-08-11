@@ -127,7 +127,6 @@ public class Fix {
             	createDirectory(pathname + sep + DEFAULT_BIN_DIRECTORY_NAME);
             	createDirectory(pathname + sep + DEFAULT_LIB_DIRECTORY_NAME);
             	createDirectory(pathname + sep + DEFAULT_SRC_DIRECTORY_NAME);
-            	generateFile(ANT_BUILD_FILE, ANT_BUILD_FILE);
             	
             	System.out.println(sep + "Project located in " + projectDir.getCanonicalPath() + sep);
             }  
