@@ -1,0 +1,16 @@
+  o888o o88               
+o888oo  oooo  oooo   oooo 
+ 888     888    888o888   
+ 888     888    o88 88o   
+o888o   o888o o88o   o88o  
+
+Fix is a simpe command line program writtern in Java to help you create "Adobe Flex" projects.
+With fix you can :
+  + Create projects.
+  + Delete projects. 
+  + Generate specific Adobe Flex, ANT build files.
+  + Generate flex-config.xml files.
+  + Generate Adobe AIR descriptor files.
+  
+I created Fix because I wanted to shared my Adobe AIR/AS3/Flex projects 
+around and I'm not always using FlashBuilder.
